@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:pope_turtle/pages/home/home_page.dart';
 import 'package:pope_turtle/resources/ui/themes.dart';
 
 void main() {
   runApp(const PopeTurtle());
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
 }
 
 class PopeTurtle extends StatelessWidget {
